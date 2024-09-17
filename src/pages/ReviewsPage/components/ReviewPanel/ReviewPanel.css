@@ -1,0 +1,126 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.container .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image > img {
+    display: flex;
+    width: auto;
+    height: 100%;
+}
+
+.container .info{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.info .info-top-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+
+.info .info-bottom-review{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 20px;
+}
+
+.info .info-bottom-review > textarea{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 70%;
+    border-radius: 6px;
+}
+.info .info-bottom-review .add-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border:none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.info .info-top-review .left{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.info .info-top-review .right{
+    display: flex;
+    /* padding-top: 10px; */
+    padding-right: 17px;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.info .info-top-review .right .review-icon {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.info .info-top-review .right .review-icon:hover {
+    transform: scale(1.1);
+}
+.info .info-top-review .left .title-car {
+    font-size: 15px;
+}
+.info .info-top-review .left span {
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.info-top-review .left > img {
+    display: flex;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}

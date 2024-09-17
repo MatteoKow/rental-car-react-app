@@ -1,0 +1,8 @@
+div.small-profile-picture {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+}

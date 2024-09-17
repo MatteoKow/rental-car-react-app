@@ -1,0 +1,12 @@
+section.our-cars-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.our-cars-page > p {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}

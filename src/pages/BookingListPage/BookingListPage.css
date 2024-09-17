@@ -1,0 +1,65 @@
+.main-title {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+section.panel-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 745px;
+    justify-content: space-between;
+}
+
+.panel-wrap .booking-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+}
+.panel-wrap .booking-search-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+}
+
+section .filter-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* height: 50px; */
+    margin-top: 20px;
+    /* border-bottom: 1px solid #777; */
+}
+
+section .filter-bar .booking-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+section .filter-bar .booking-button:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid black;
+}
+
+section .filter-bar .booking-button.active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.no-booking-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}

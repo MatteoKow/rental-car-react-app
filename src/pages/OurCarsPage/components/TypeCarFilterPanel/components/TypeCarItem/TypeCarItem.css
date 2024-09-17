@@ -1,0 +1,23 @@
+div.type-car-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70%;
+    background-color: #fff; 
+    color: black;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+div.type-car-item:hover {
+    transform: scale(1.05);
+}
+
+.type-car-item.selected {
+    background-color: black;
+    color: white;
+  }

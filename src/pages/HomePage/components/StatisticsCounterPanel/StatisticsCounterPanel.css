@@ -1,0 +1,9 @@
+section.statistics-panel-basic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0px 300px 0px 300px;
+    background-color: #292727;
+}

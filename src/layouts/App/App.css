@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  top: 120px;
+  width: 100vw;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+nav.navigation-active {
+  position: fixed;
+  display: flex;
+  top:0;
+  width: 100%;
+  height: 80px;
+  /* background: #fff; */
+  color: black;
+  font-size: 15px;
+  justify-content: center; 
+  align-items: center;
+  z-index:100;
+  transition: 0.5s;
+  /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.1); */
+} 
+
+nav.navigation{
+  position: fixed;
+  display: flex;
+  top:0;
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  color: black;
+  font-size: 15px;
+  transition: 0.5s;
+  justify-content: center; 
+  align-items: center;
+  z-index:100;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+} 
+
+main {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 120px; */
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+footer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  /* background-color: #333232; */
+  background-color: black;
+
+  padding: 20px;
+}

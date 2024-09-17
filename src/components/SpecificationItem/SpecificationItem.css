@@ -1,0 +1,18 @@
+div.specification-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100px; */
+    height: 100%;
+}
+
+.specification-item > p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.specification-item > span {
+    font-size: 12px;
+    font-weight: 300;
+}

@@ -1,0 +1,9 @@
+section.makes-filter-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    gap: 10px;
+}

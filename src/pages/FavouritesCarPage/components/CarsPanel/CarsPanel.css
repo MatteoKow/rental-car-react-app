@@ -1,0 +1,9 @@
+section.cars-panel-fav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-top: 0px; */
+    margin-bottom: 70px;
+}

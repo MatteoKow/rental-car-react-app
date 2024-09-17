@@ -1,0 +1,52 @@
+section .booking-info .pre-booking-price-panel {
+    display: flex;
+    width: 290px;
+    height: 100px;
+    border-radius: 6px;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    background-color: #fff;
+    padding: 10px 10px 10px 20px;
+}
+section .booking-info .pre-booking-price-panel .details-price {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    font-size: 15px;
+    gap: 5px;
+    border-right: 1px solid black;
+}
+
+section .booking-info .pre-booking-price-panel .details-price ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 13px;
+    font-weight: 300;
+    gap: 5px;
+}
+
+section  .booking-info .pre-booking-price-panel .details-price > span {
+    font-size: 13px;
+}
+section .booking-info .pre-booking-price-panel .details-price ul > li {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+section .booking-info .pre-booking-price-panel .total-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 13px;
+    gap: 5px;
+    /* padding-bottom: 20px; */
+}
+
+section .booking-info .pre-booking-price-panel .total-price span:nth-child(2){
+    font-size: 20px;
+    font-weight: 600;
+}

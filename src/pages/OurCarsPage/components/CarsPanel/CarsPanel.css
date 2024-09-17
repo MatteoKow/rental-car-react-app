@@ -1,0 +1,11 @@
+section.cars-panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 500px; */
+    padding: 0px 150px 60px 150px;
+    margin-top: 40px;
+    border-top: 0.5px solid black;
+}

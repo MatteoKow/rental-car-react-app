@@ -1,0 +1,12 @@
+section .favourites-car-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+}
+
+section .favourites-car-page .title-fav{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}

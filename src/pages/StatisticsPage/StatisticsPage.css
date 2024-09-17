@@ -1,0 +1,31 @@
+section .statistics-page {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+section .statistics-page .title-page-stats {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+section .statistics-page .select-panel{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section .statistics-page .select-panel > select{
+    display: flex;
+    text-align: center;
+    width: 47%;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+}

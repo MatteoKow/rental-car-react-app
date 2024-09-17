@@ -1,0 +1,31 @@
+section.regulations-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-top: 40px;
+    /* height: 600px; */
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 80px;
+    font-weight: 300;
+}
+
+section.regulations-page > ol {
+    text-align: left;
+}
+
+section.regulations-page li {
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+
+section.regulations-page h1 {
+    margin-bottom: 40px;
+}
+section.regulations-page h3 {
+    margin-bottom: 5px;
+}
+
+section.regulations-page p {
+    margin-top: 40px;
+}

@@ -1,0 +1,39 @@
+div .main-title-permission {
+    display: flex;
+    /* margin-bottom: 30px; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section .filter-bar-permission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section .filter-bar-permission .permission-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+section .filter-bar-permission .permission-button:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid black;
+}
+
+section .filter-bar-permission .permission-button.active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}

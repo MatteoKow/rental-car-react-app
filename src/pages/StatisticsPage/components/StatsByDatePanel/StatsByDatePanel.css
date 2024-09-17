@@ -1,0 +1,40 @@
+div .stats-by-date-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+div .stats-by-date-panel .no-car-baner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+div .stats-by-date-panel .stats-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div .stats-by-date-panel .car-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    height: 390px;
+    /* background-color: red; */
+}
+
+div .stats-by-date-panel .car-stats .title-stats {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div .stats-by-date-panel .stats-list .title-stats {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}

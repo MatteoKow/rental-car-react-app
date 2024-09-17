@@ -1,0 +1,54 @@
+form.create-account-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+
+.create-account-panel .create-account-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.create-account-panel .wrap-roles {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    width: 300px;
+    align-items: end;
+}
+
+.create-account-panel .wrap-roles .add-roles-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 52px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: 0.5px solid black;
+    border-radius: 6px; 
+    cursor: pointer;
+}
+.create-account-panel .wrap-roles .add-roles-button .icon-roles{
+    transform: scale(2);
+    transition: 0.5s;
+    color: black;
+
+}
+
+.create-account-panel .wrap-roles .add-roles-button .icon-roles:hover {
+    transform: scale(2.2);
+}

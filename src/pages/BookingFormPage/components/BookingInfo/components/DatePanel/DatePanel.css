@@ -1,0 +1,59 @@
+section .booking-info .booking-details-panel {
+    display: flex;
+    flex-direction: row;
+    width: 290px;
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 10px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    background-color: #fff;
+    margin-bottom: 20px;
+} 
+
+.booking-info .booking-details-panel .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
+
+.booking-info .booking-details-panel .icon-calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 60px; */
+    margin-right: 10px;
+    font-size: 16px;
+}
+.booking-info .booking-details-panel  .date-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+}
+.booking-info .booking-details-panel  .date-info span:first-child {
+    display: flex;
+    font-size: 13px;
+    font-weight: 350;
+    margin-bottom: 10px;
+}
+
+.booking-info .booking-details-panel .date-info span:nth-child(2) {
+    display: flex;
+    font-size: 13px;
+    font-weight: 250;
+    margin-bottom: 4px;
+}
+.booking-info .booking-details-panel  .date-info span:nth-child(3) {
+    display: flex;
+    font-size: 13px;
+    font-weight: 250;
+}

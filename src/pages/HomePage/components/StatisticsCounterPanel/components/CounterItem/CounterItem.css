@@ -1,0 +1,19 @@
+div.counter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 60px;
+}
+.counter-item .quantity {
+    font-size: 30px;
+    color: red;
+    font-weight: 200;
+}
+
+.counter-item .counter-name {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}

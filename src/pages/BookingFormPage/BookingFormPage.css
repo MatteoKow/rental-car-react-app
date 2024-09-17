@@ -1,0 +1,11 @@
+section.conteiner-booking {
+    display: flex;
+    /* padding-left: 200px; */
+    /* padding-right: 200px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+}
+

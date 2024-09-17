@@ -1,0 +1,89 @@
+section.register {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    padding-top: 30px;
+    border-radius: 6px;
+    box-shadow: 0px 10px 24px -14px rgba(66, 68, 90, 1);
+    background-color: white;
+}
+
+
+section.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px 10px 30px;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-between;
+    width:  100%;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.register-form form input {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+section .register-title {
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    
+}
+
+section .title-form {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.register-form .buttons {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 30px; */
+    width: 100%;
+    height: 50px;
+    gap: 20px;
+}
+.register-form .buttons button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.register-form .buttons button:hover {
+    transform: scale(1.05);
+}
+
+.register-form .buttons .back {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.register-form .buttons .next {
+    border: none;
+    background-color: black;
+    color: white;
+}
+

@@ -1,0 +1,38 @@
+div.make-logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 90px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+div.make-logo-item:hover {
+    transform: scale(1.05);
+}
+
+.make-logo-item .make-logo {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #fff;
+}
+.make-logo-item .make-logo > img{
+    width: 100%;
+}
+
+.make-logo-item .make-logo.selected {
+    border: 1px solid black;
+}
+
+.make-logo-item > p {
+    font-size: 14px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,11 @@
+section .ui-template {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    /* background: white; */
+    /* margin-left: 20%; */
+    padding: 40px 40px 0px 40px;
+    border-radius: 10px;
+}

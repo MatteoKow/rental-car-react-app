@@ -1,0 +1,141 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 60%;
+    height: 170px;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+    gap: 20px;
+}
+.box .box-back {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -40px;
+    background-color: white;
+    width: 260px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 10px;
+}
+
+.box-back h1 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box-back .icon{
+    font-size: 25px;
+}
+.box h2 {
+    display: flex;
+    /* height: 20%; */
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 40px;
+}
+.box .date-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 80%; */
+}
+.date {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 250px;
+    height: 70px;
+    padding: 0px 0px 0px 0px;
+    font-size: 13px;
+    border: 0.5px solid #535353;
+    border-radius: 8px;
+}
+
+.date .date-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 40%;
+}
+
+
+.date label {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.date .date-element {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: start;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    /* width: 100px; */
+    /* color: #535353; */
+}
+.date-element-active {
+    background-color: #ff4343;
+
+}
+.box .find-button {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    top: 100px;
+    right: 50px;
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: black;
+    border: 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box .find-button:hover {
+    transform: scale(1.05);
+}
+
+
+.box .find-button .icon{
+    font-size: 23px;
+}
+
+@keyframes slide {
+    0%   {left: 0px}
+    100% {left: 420px}
+  }
+  
+.calendar {
+    position: absolute;
+    top:50px;
+    left: 410px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.2);
+    animation: slide .3s linear forwards;
+}
+

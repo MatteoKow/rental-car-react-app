@@ -1,0 +1,72 @@
+section.about-us-page {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    padding-top: 80px;
+}
+.about-us-page .contact-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-page .contact-panel .contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+    color: black;
+    border-radius: 10px;
+}
+
+.about-us-page .contact-panel .title {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-us-page .contact-panel .contact-box .text-info {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid white;
+    padding-bottom: 30px;
+}
+.about-us-page .contact-panel .contact-box .contact-panel-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.about-us-page .contact-panel .contact-box .contact-panel-details > span {
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.about-us-page .map-panel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

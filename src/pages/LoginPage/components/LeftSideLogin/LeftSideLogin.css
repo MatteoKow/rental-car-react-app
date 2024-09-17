@@ -1,0 +1,13 @@
+section.left-side-login {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.left-side-login > img {
+    display: flex;
+    width: auto;
+    height: auto;
+}

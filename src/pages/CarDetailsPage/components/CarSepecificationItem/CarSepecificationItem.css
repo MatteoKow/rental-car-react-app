@@ -1,0 +1,21 @@
+.wrap-icon {
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+    width: 200px;
+    height: 55px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.wrap-icon .title-spec {
+    display: flex;
+    font-weight: 600;
+    width: 125px;
+}
+.wrap-icon .content-spec {
+    display: flex;
+    font-size: 13px;
+    width: 125px;
+}

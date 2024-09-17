@@ -1,0 +1,36 @@
+form.create-permission-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+
+.create-permission-panel .create-account-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.create-permission-panel .wrap-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    gap: 20px;
+    font-size: 14px;
+}
+
+

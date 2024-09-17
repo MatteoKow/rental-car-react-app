@@ -1,0 +1,17 @@
+section.details-page {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    flex-direction: row;
+    margin-top: 160px;
+}
+.details-page-left {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin-bottom: 50px;
+}
+.details-page-right {
+    display: flex;
+    width: 30%;
+}

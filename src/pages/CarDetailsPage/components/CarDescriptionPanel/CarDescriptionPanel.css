@@ -1,0 +1,30 @@
+section.description-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 300px; */
+    border-radius: 12px;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    padding: 10px;
+    background-color: white;
+}
+
+.description-panel .title-description {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-bottom: 0.1px solid #777;
+    font-size: 15px;
+    font-weight: 600;
+}
+.description-panel .content-description {
+    display: flex;
+    width: 100%;
+    /* height: 85%; */
+    justify-content:start;
+    text-align: justify;
+    padding: 30px;
+    align-items: center;
+}

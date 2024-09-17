@@ -1,0 +1,32 @@
+.filter-component .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    user-select: none;
+}
+
+.filter-component .active-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+    user-select: none;
+}
+/* .filter-component > label > input {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+} */

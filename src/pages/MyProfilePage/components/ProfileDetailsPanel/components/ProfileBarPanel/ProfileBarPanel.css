@@ -1,0 +1,81 @@
+section .profile-bar-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 6px;
+    padding: 60px 100px 40px 100px;
+}
+
+.profile-bar-panel .left{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.profile-bar-panel .right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+
+.profile-bar-panel .left .profile-image {
+    display: flex;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    overflow: hidden;
+    margin-right: 30px;
+}
+.profile-bar-panel .left .profile-image img {
+    display: flex;
+    width: 100%;
+}   
+
+.profile-bar-panel .left .info-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 200px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.info-part .profile-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info-part .profile-points{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-bar-panel .right .change-password  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #4a4e69;
+    box-shadow: 0px 12px 24px -11px rgba(66, 68, 90, 1);
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.profile-bar-panel .right .change-password:hover  {
+    transform: scale(1.05);
+}

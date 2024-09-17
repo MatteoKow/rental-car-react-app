@@ -1,0 +1,14 @@
+
+form.box-panel-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.main-title {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}

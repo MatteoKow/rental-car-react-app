@@ -1,0 +1,23 @@
+div .stats-general-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 0.5px solid black;
+}
+
+div .stats-general-panel .title-stats {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+div .stats-general-panel .general-stat-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+}

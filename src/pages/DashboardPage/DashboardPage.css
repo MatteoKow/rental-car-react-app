@@ -1,0 +1,8 @@
+section .dashboard-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 600px;
+    font-size: 40px;
+}
